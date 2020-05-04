@@ -5105,6 +5105,7 @@ MonoBehaviour:
   volumeSlider: {fileID: 469938360}
   mouseSensSlider: {fileID: 889427404}
   bombRotationSensSlider: {fileID: 857472026}
+  fullScreen: {fileID: 284313128}
   resolutionDropdown: {fileID: 541184736}
   qualityDropdown: {fileID: 1203360573}
   postProcessingDropdown: {fileID: 62685486}

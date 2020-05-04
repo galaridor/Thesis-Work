@@ -17,6 +17,8 @@ public class SettingsMenu : MonoBehaviour
 
     public Slider bombRotationSensSlider;
 
+    public Toggle fullScreen;
+
     Resolution[] resolutions; //an array with all available resolutions
 
     public Dropdown resolutionDropdown;
@@ -99,6 +101,11 @@ public class SettingsMenu : MonoBehaviour
             {
                 currentResolutionIndex = i;
             }
+        }
+
+        if(Screen.fullScreen == false)
+        {
+            fullScreen.isOn = false;
         }
 
         resolutionDropdown.AddOptions(options);
