@@ -119,6 +119,7 @@ ModelImporter:
     100226: WhiteWire
     100228: WhiteWireCut
     100230: BigBattery04
+    100232: ComplexGreenWireConnection01
     400000: BezierCircle
     400002: BigBattery01
     400004: BigBattery02
@@ -235,6 +236,7 @@ ModelImporter:
     400226: WhiteWire
     400228: WhiteWireCut
     400230: BigBattery04
+    400232: ComplexGreenWireConnection01
     2100000: Material.006
     2100002: Material.005
     2100004: Material.008
@@ -397,6 +399,7 @@ ModelImporter:
     2300224: WhiteWire
     2300226: WhiteWireCut
     2300228: BigBattery04
+    2300230: ComplexGreenWireConnection01
     3300000: BezierCircle
     3300002: BigBattery01
     3300004: BigBattery02
@@ -512,6 +515,7 @@ ModelImporter:
     3300224: WhiteWire
     3300226: WhiteWireCut
     3300228: BigBattery04
+    3300230: ComplexGreenWireConnection01
     4300000: Bomb
     4300002: Rope05
     4300004: BezierCircle
@@ -627,6 +631,7 @@ ModelImporter:
     4300224: WhiteWire
     4300226: WhiteWireCut
     4300228: BigBattery04
+    4300230: ComplexGreenWireConnection01
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

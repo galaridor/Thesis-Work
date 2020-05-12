@@ -21645,6 +21645,69 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 302600477}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1561609934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100132, guid: 7fadc8afa03e67840949033703de8f38,
+    type: 3}
+  m_PrefabInstance: {fileID: 2051019942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1561609935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561609934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e7d03de88848348a05322077b50720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wrongSound: {fileID: 484070703}
+  correctSound: {fileID: 1316939902}
+  numberOfModules: 0
+  counter: 0
+  complexWiresIndicator: {fileID: 260666203}
+  indicatorPassed: {fileID: 2100000, guid: b86371059a5cdce4c9810f7a6d2cc603, type: 2}
+  indicatorStrike: {fileID: 2100000, guid: 09084364ba0372b4ebe905d69b4a0f19, type: 2}
+  cursorTexture: {fileID: 2800000, guid: 2e9b290b88f9c1f4096a597c39b3356f, type: 3}
+  cursorMode: 1
+  hotSpot: {x: 0, y: 0}
+  BlueWire: {fileID: 0}
+  BlueWireCut: {fileID: 0}
+  BlueWire02: {fileID: 0}
+  BlueWire02Cut: {fileID: 0}
+  YellowWire: {fileID: 2051019951}
+  YellowWireCut: {fileID: 97274974}
+  YellowWire02: {fileID: 0}
+  YellowWire02Cut: {fileID: 0}
+  GreenWire: {fileID: 1561609934}
+  GreenWireCut: {fileID: 216497927}
+  GreenWire02: {fileID: 0}
+  GreenWire02Cut: {fileID: 0}
+  RedWire: {fileID: 2051019954}
+  RedWireCut: {fileID: 684948640}
+  RedWire02: {fileID: 0}
+  RedWire02Cut: {fileID: 0}
+  WhiteWire: {fileID: 2051019953}
+  WhiteWireCut: {fileID: 170936964}
+  WhiteWire02: {fileID: 2051019952}
+  WhiteWire02Cut: {fileID: 536982614}
+  strikesText: {fileID: 1423317030}
+  complexWiresIndicatorLight: {fileID: 1187868760}
+--- !u!65 &1561609936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561609934}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0000088, y: 6.9234805, z: 99.63287}
+  m_Center: {x: -0.00012216708, y: -0.66444707, z: -1.1848317}
 --- !u!1 &1564246558
 GameObject:
   m_ObjectHideFlags: 0
@@ -28892,6 +28955,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 100232, guid: 7fadc8afa03e67840949033703de8f38, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 7fadc8afa03e67840949033703de8f38, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -29162,12 +29229,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2051019942}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2051019955 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100164, guid: 7fadc8afa03e67840949033703de8f38,
-    type: 3}
-  m_PrefabInstance: {fileID: 2051019942}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2051019956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100046, guid: 7fadc8afa03e67840949033703de8f38,
@@ -29258,19 +29319,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0000088, y: 6.9234805, z: 99.63287}
   m_Center: {x: -0.00012216708, y: -0.66444707, z: -1.1848317}
---- !u!65 &2051019964
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051019955}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0000167, y: 6.923484, z: 99.63282}
-  m_Center: {x: 0.00048811056, y: -0.6646912, z: -1.1848311}
 --- !u!65 &2051019965
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29583,7 +29631,7 @@ MonoBehaviour:
   YellowWireCut: {fileID: 97274974}
   YellowWire02: {fileID: 0}
   YellowWire02Cut: {fileID: 0}
-  GreenWire: {fileID: 2051019955}
+  GreenWire: {fileID: 1561609934}
   GreenWireCut: {fileID: 216497927}
   GreenWire02: {fileID: 0}
   GreenWire02Cut: {fileID: 0}
@@ -29627,7 +29675,7 @@ MonoBehaviour:
   YellowWireCut: {fileID: 97274974}
   YellowWire02: {fileID: 0}
   YellowWire02Cut: {fileID: 0}
-  GreenWire: {fileID: 2051019955}
+  GreenWire: {fileID: 1561609934}
   GreenWireCut: {fileID: 216497927}
   GreenWire02: {fileID: 0}
   GreenWire02Cut: {fileID: 0}
@@ -29671,7 +29719,7 @@ MonoBehaviour:
   YellowWireCut: {fileID: 97274974}
   YellowWire02: {fileID: 0}
   YellowWire02Cut: {fileID: 0}
-  GreenWire: {fileID: 2051019955}
+  GreenWire: {fileID: 1561609934}
   GreenWireCut: {fileID: 216497927}
   GreenWire02: {fileID: 0}
   GreenWire02Cut: {fileID: 0}
@@ -29715,51 +29763,7 @@ MonoBehaviour:
   YellowWireCut: {fileID: 97274974}
   YellowWire02: {fileID: 0}
   YellowWire02Cut: {fileID: 0}
-  GreenWire: {fileID: 2051019955}
-  GreenWireCut: {fileID: 216497927}
-  GreenWire02: {fileID: 0}
-  GreenWire02Cut: {fileID: 0}
-  RedWire: {fileID: 2051019954}
-  RedWireCut: {fileID: 684948640}
-  RedWire02: {fileID: 0}
-  RedWire02Cut: {fileID: 0}
-  WhiteWire: {fileID: 2051019953}
-  WhiteWireCut: {fileID: 170936964}
-  WhiteWire02: {fileID: 2051019952}
-  WhiteWire02Cut: {fileID: 536982614}
-  strikesText: {fileID: 1423317030}
-  complexWiresIndicatorLight: {fileID: 1187868760}
---- !u!114 &2051020021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051019955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26e7d03de88848348a05322077b50720, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wrongSound: {fileID: 484070703}
-  correctSound: {fileID: 1316939902}
-  numberOfModules: 0
-  counter: 0
-  complexWiresIndicator: {fileID: 260666203}
-  indicatorPassed: {fileID: 2100000, guid: b86371059a5cdce4c9810f7a6d2cc603, type: 2}
-  indicatorStrike: {fileID: 2100000, guid: 09084364ba0372b4ebe905d69b4a0f19, type: 2}
-  cursorTexture: {fileID: 2800000, guid: 2e9b290b88f9c1f4096a597c39b3356f, type: 3}
-  cursorMode: 1
-  hotSpot: {x: 0, y: 0}
-  BlueWire: {fileID: 0}
-  BlueWireCut: {fileID: 0}
-  BlueWire02: {fileID: 0}
-  BlueWire02Cut: {fileID: 0}
-  YellowWire: {fileID: 2051019951}
-  YellowWireCut: {fileID: 97274974}
-  YellowWire02: {fileID: 0}
-  YellowWire02Cut: {fileID: 0}
-  GreenWire: {fileID: 2051019955}
+  GreenWire: {fileID: 1561609934}
   GreenWireCut: {fileID: 216497927}
   GreenWire02: {fileID: 0}
   GreenWire02Cut: {fileID: 0}
